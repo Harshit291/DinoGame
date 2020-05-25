@@ -2,7 +2,7 @@ import pyautogui  # pip install pyautogui
 from PIL import Image, ImageGrab  # pip install pillow
 from numpy import asarray
 import time
-
+#hi harshit
 
 def hit(key):
     pyautogui.keyDown(key)
@@ -12,15 +12,15 @@ def hit(key):
 def isCollide(data):
     # Draw the rectangle for cactus
     for i in range(483, 488):
-        for j in range(228, 255):
-            if data[i, j] > 170:
+        for j in range(398, 425):
+            if data[i, j] < 100:
                 hit("up")
                 return
 
     # Draw the rectangle for birds
     for i in range(483, 488):
-        for j in range(200, 227):
-            if data[i, j] > 170:
+        for j in range(370, 397):
+            if data[i, j] < 100:
                 hit("down")
                 return
 
@@ -39,18 +39,18 @@ if __name__ == "__main__":
 
 
 
-        # # print(asarray(image))
-        #
+        # print(asarray(image))
+        
         # # Draw the rectangle for birds
         # for i in range(483, 488):
-        #     for j in range(200, 227):
+        #     for j in range(370, 397):
         #         data[i, j] = 171
-        #
+        
         # # Draw the rectangle for cactus
         # for i in range(483, 488):
-        #     for j in range(228, 255):
+        #     for j in range(398, 425):
         #         data[i, j] = 255
-        #
+        
         # image.show()
         # break
 
