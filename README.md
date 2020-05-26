@@ -10,3 +10,4 @@ How to use this program:
 You can make high Score like this...
 
 ![Game Image](https://art.pixilart.com/416e47125fb06d8.png =100x50)
+<img src="https://art.pixilart.com/416e47125fb06d8.png" alt="drawing" width="200"/>
