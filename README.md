@@ -9,4 +9,4 @@ How to use this program:
 
 You can make high Score like this...
 
-![Game Image](https://i.ytimg.com/vi/PCsLaCI44iM/maxresdefault.jpg)
+![Game Image](https://art.pixilart.com/416e47125fb06d8.png)
